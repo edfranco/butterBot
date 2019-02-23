@@ -1,0 +1,59 @@
+.header{
+    background-color: rgb(83, 83, 83);
+    height: 100px;
+    display: flex;
+}
+
+.logo{
+    float: left;
+    padding-left: .1em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.Butter{
+    color: rgb(255, 174, 0);
+}
+
+.Bot{
+    color: black;
+}
+
+img{
+    width: 100px;
+    height: 50%;
+    justify-content: flex-end;
+}
+
+
+
+
+nav{
+    position: relative;
+    display: flex;
+    list-style: none;
+    width: 100%;
+}
+
+.nav-items{
+    background-color: gray;
+    color: white;
+    display: flex;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-right: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    width: 100%;
+}
+
+.nav-items:hover{
+    cursor: pointer;
+    background-color: rgb(66, 65, 65);
+}
