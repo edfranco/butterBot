@@ -5,9 +5,8 @@
 }
 
 .logo{
-    float: left;
-    padding-left: .1em;
     display: flex;
+    padding-left: .1em;
     justify-content: flex-start;
     align-items: flex-end;
     font-size: 3em;
@@ -22,14 +21,24 @@
     color: black;
 }
 
-img{
-    width: 100px;
-    height: 50%;
+.img{
+    display: flex;
+    height: 100%;
+    width: 100%;
     justify-content: flex-end;
+    align-items: flex-end;
+    padding-right:1%; 
 }
 
+.img img{
+    height: 50%;
+    padding-right: 2%;
+   
+}
 
-
+.img img:hover{
+    cursor: pointer;
+}
 
 nav{
     position: relative;
@@ -56,4 +65,41 @@ a{
 .nav-items:hover{
     cursor: pointer;
     background-color: rgb(66, 65, 65);
+}
+
+.content{
+    display: flex;
+    height:500px;
+    width:100%;
+    background-color: rgb(255, 196, 0);
+}
+
+.left-placeholder{
+    width:20%;
+    justify-content: flex-start;
+    border-right: 1px solid black; 
+
+}
+
+.center-placeholder{
+    width: 60%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.right-placeholder{
+    width:20%;
+    justify-content: flex-end;
+    border-left: 1px solid black;
+}
+
+.footer{
+    display: flex;
+    background: black;
+    color: white;
+    height:100px;
+}
+
+.licensing{
+    align-items: flex-end;
 }
