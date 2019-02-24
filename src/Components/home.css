@@ -40,7 +40,7 @@
     cursor: pointer;
 }
 
-nav{
+.nav{
     position: relative;
     display: flex;
     list-style: none;
@@ -58,7 +58,7 @@ nav{
     align-items: center;
 }
 
-a{
+.nav a{
     width: 100%;
 }
 
