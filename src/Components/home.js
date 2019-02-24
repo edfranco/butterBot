@@ -15,19 +15,19 @@ class Home extends Component {
                         </div>
 
                         <div className="img">
-                            <img id="img-1" src={require('./github.svg')} />
-                            <img id="img-2" src={require('./linkedin-logo.svg')} />
+                            <img id="img-1" src={require('./github.svg')} alt="" />
+                            <img id="img-2" src={require('./linkedin-logo.svg')} alt="" />
                         </div>
                         
                     
                 </div>
 
-                <nav>
-                    <a className='nav-items'>Home</a>
-                    <a className='nav-items'>About</a>
-                    <a className='nav-items'>Stats</a>
-                    <a className='nav-items'>Contact Us</a>
-                </nav>
+                <div className="nav">
+                    <a href="#" className='nav-items'>Home</a>
+                    <a href="#" className='nav-items'>About</a>
+                    <a href="#" className='nav-items'>Stats</a>
+                    <a href="#" className='nav-items'>Contact Us</a>
+                </div>
 
                 <div className="content">
                     <div className="left-placeholder">
