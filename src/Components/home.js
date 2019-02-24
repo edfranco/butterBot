@@ -13,8 +13,13 @@ class Home extends Component {
                                 <span className="Butter">Butter</span>
                                 <span className="Bot">Bot</span>
                         </div>
-                            <img src={require('./github.svg')} />
-                            <img src={require('./linkedin-logo.svg')} />
+
+                        <div className="img">
+                            <img id="img-1" src={require('./github.svg')} />
+                            <img id="img-2" src={require('./linkedin-logo.svg')} />
+                        </div>
+                        
+                    
                 </div>
 
                 <nav>
@@ -24,7 +29,27 @@ class Home extends Component {
                     <a className='nav-items'>Contact Us</a>
                 </nav>
 
-                <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+                <div className="content">
+                    <div className="left-placeholder">
+
+                    </div>
+
+                    <div className="center-placeholder">
+
+                    </div>
+
+                    <div className="right-placeholder">
+
+                    </div>
+
+                </div>
+
+                
+                <div className="footer">
+                    <div className="licensing">
+                        Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+                    </div>
+                </div>
             </React.Fragment>
         );
     }
