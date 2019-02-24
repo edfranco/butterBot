@@ -8,6 +8,7 @@ package.json
 README.md
 linkedin-logo.svg
 github.svg
+src/logo.svg
 
 # dependencies
 /node_modules
